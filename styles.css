@@ -1,0 +1,39 @@
+body {
+    background-color: #fff;
+    font-family: Sans-Serif, Helvetica, Arial;
+    font-size: 20px;
+}
+.container {
+     background-color: #676785;
+    margin:0, auto;
+   display:flex;
+    justify-content: space-between;
+    padding:20px, 0;
+    max-width: 1029px;
+    width:100%;
+}
+.container__left {
+    background:url("./mockups/mf-kr.jpeg");
+    position: absolute;
+    flex-flow: row;
+    top:0;
+    left:0;
+    height:100%;
+    width:50%;
+}
+.container__right {
+    position:absolute;
+    padding-right: 5%;
+    right:0;
+    transform: none;
+    text-align: center;
+    width:30%;  
+}
+.footer {
+    display: inline-block;
+    position: absolute;
+    background-color: grey;
+    right:0;
+    width: 50%;
+    bottom: 0;
+}
